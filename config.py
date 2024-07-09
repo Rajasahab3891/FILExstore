@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7198403360:AAGD8nUQg1ClDOpENwm_SK077cE_clKP364")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6861472882:AAFnOk03DZAbpVc29BIgsNGH8a_D_fYSkdM")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28196711"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "28196711"))
 API_HASH = os.environ.get("API_HASH", "a8a23bffb12aae7a4c72fa2b4cd538a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002115454313"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002125284798"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6655939309"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Pandababy2:pandababy2.0@p
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002004462969"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001839879794"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
